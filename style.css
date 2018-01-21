@@ -1,0 +1,30 @@
+body {
+  font-family: 'Yantramanav', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #EBECED;
+  color: #A2AAB0;
+}
+
+nav {
+  background-color: #757081;
+
+}
+
+main {
+  flex: 1 0 auto;
+  text-align: center;
+
+}
+      
+.page-footer {
+  padding: 0px;
+  background-color: #757081;
+
+}
+
+.footer-copyright {
+  text-align: center;
+
+}
