@@ -3,7 +3,10 @@
 <head>
   <title>Sweeney Arnett: Full Stack Web Developer</title>
   <link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <!-- Mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -21,62 +24,94 @@
         </button>
         <a class="navbar-brand" href="/">s/a</a>
       </div>
-      <!-- Define the links -->
+      <!-- Nav links -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="/#about" class="navLinks">projects</a>
+            <a href="#projects" class="navLinks">projects</a>
           </li>
           <li>
-            <a href="/auth/login" class="navLinks">about</a>
+            <a href="#about" class="navLinks">about</a>
           </li>
           <li>
-            <a href="/auth/signup" class="navLinks">contact</a>
+            <a href="#contact" class="navLinks">contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
-
   <main>
-    <div class="container">
-      <div>
-        <h2>hi there</h2>
+    <section id="about">
+      <div class="container">
+        <h5>about</h5>
+          <p>Lorem ipsum dolor amet mixtape chartreuse viral man bun kale chips brunch lo-fi williamsburg. Meggings man braid gastropub, put a bird on it banjo hexagon pour-over shaman butcher beard pabst williamsburg celiac. Deep v forage whatever, ugh small batch raclette tacos 90's PBRB hoodie. Cliche fixie church-key VHS, activated charcoal locavore migas jianbing readymade.</p>
       </div>
-    <h5>PROJECTS</h5>
-     <div class="divider"></div>
-      <div id="project-one" class="projects">
-        <div class="section">
-          <h5>[project]</h5>
+    </section>
+
+    <section id="projects">
+      <!-- <div class="container"> -->
+      <h5>projects</h5>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          
+          <div class="item active">
+            <img src="https://i.imgur.com/Cz6WoWim.png" alt="project" class="img-responsive center-block projects-display">
+            <div class="carousel-caption">
+              <h3>project<h3>
+                <p>more project details....</p>  
+            </div>
+          </div>
+          <div class="item">
+            <img src="https://i.imgur.com/h0e0LaAm.png" alt="project" class="img-responsive center-block projects-display">
+            <div class="carousel-caption">
+              <h3>project<h3>
+                <p>more project details....</p>
+            </div>
+          </div>
+
         </div>
+      <!-- </div> -->
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <div id="project-two" class="projects">
-        <div class="section">
-          <h5>[project]</h5>
-        </div>
+    </section>
+
+    <section id="contact">
+      <h5>contact</h5>
+       <div class="container">
+        <h2 class="pull-left">Sweeney Arnett</h2>
+        <!-- <h4 class="pull-left">561.302.3187</h4> -->
+        <a href="https://github.com/sweeneyyy" class="pull-right"><img src="./img/github_black.png" id="github"></a>
+
+        <a href="https://www.linkedin.com/in/sweeneyarnett/" class="pull-right"><img src="./img/linked.png" id="linkedin"></a>
       </div>
-      <div id="project-three" class="projects">
-        <div class="section">
-          <h5>[project]</h5>
-        </div>
-      </div>
-    </div>
-   
+     
+    </section>
+
   </main>
 
+ <!--  <footer class="navbar navbar-default navbar-fixed-bottom" id="footer">
+   
+  </footer>     -->  
 
-  <footer class="navbar navbar-default navbar-fixed-bottom" id="footer">
-    <div class="container">
-      <a href="#" class="pull-left" id="copyright">Sweeney Arnett ©2018 </a>
-      <a href="#" class="pull-right" id="github">GitHub</a>
-    </div>
-  </footer>
-            
-</body>
   <!-- jQuery and Bootstrap-->
-  <script src="//code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
