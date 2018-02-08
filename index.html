@@ -3,32 +3,48 @@
 <head>
   <title>Sweeney Arnett: Full Stack Web Developer</title>
   <link href="https://fonts.googleapis.com/css?family=Yantramanav:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <!-- Mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-  <nav>
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo left">sa</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Mobile stuff -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">s/a</a>
+      </div>
+      <!-- Define the links -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/#about" class="navLinks">projects</a>
+          </li>
+          <li>
+            <a href="/auth/login" class="navLinks">about</a>
+          </li>
+          <li>
+            <a href="/auth/signup" class="navLinks">contact</a>
+          </li>
         </ul>
+      </div>
     </div>
   </nav>
+
+
 
   <main>
     <div class="container">
       <div>
         <h2>hi there</h2>
       </div>
-    <div class="divider"></div>
     <h5>PROJECTS</h5>
      <div class="divider"></div>
       <div id="project-one" class="projects">
@@ -36,35 +52,31 @@
           <h5>[project]</h5>
         </div>
       </div>
-    <div class="divider"></div>
       <div id="project-two" class="projects">
         <div class="section">
           <h5>[project]</h5>
         </div>
       </div>
-    <div class="divider"></div>
       <div id="project-three" class="projects">
         <div class="section">
           <h5>[project]</h5>
         </div>
       </div>
     </div>
-    <div class="divider"></div>
    
   </main>
 
 
-  <footer class="page-footer">
-    <div class="footer-copyright">
-      <div class="container">
-      Sweeney Arnett ©2018 
-      </div>
+  <footer class="navbar navbar-default navbar-fixed-bottom" id="footer">
+    <div class="container">
+      <a href="#" class="pull-left" id="copyright">Sweeney Arnett ©2018 </a>
+      <a href="#" class="pull-right" id="github">GitHub</a>
     </div>
   </footer>
             
 </body>
-  <!-- jQuery and Materialize-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- jQuery and Bootstrap-->
+  <script src="//code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

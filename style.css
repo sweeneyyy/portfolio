@@ -4,12 +4,17 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #EBECED;
-  color: #A2AAB0;
+  /*color: #A2AAB0;*/
 }
 
 nav {
-  background-color: #757081;
+  background-color: #FFF;
+  color: #000000;
+  border: 1px solid transparent;
 
+}
+nav a{
+  color: #000000;
 }
 
 main {
@@ -18,13 +23,15 @@ main {
 
 }
       
-.page-footer {
-  padding: 0px;
-  background-color: #757081;
-
+#footer {
+  padding: 20px;
 }
 
-.footer-copyright {
+#footer a{
+  color: #000000;
+}
+
+#copyright {
   text-align: center;
 
 }
