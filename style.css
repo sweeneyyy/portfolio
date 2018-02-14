@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #EBECED;
+  color: #595856;
   /*color: #A2AAB0;*/
 }
 
@@ -40,6 +41,11 @@ main {
   flex: 1 0 auto;
   text-align: center;
 }
+hr {
+  width: 200px;
+  color: blue;
+  z-index: 99;
+}
 
 #footer {
   padding: 20px;
@@ -69,6 +75,10 @@ main {
   padding: 50px 0;
 }
 
+#projects-header{
+  margin-bottom: 40px;
+}
+
 .projects-display {
   margin-bottom: 50px;
 }
@@ -94,17 +104,36 @@ main {
   height:100%;
   padding: 30px 0;
   margin-bottom: 50px;
+  letter-spacing: 1px;
+  /*margin: 0 20px 50px 20px;*/
   /*text-align: center;*/
 }
 
-#github {
-  width: 40px;
-  height: 40px;
-  margin-top: 10px;
+#contact-glyphs a{
+ /* width: 40px;
+  height: 40px;*/
+  /*margin-top: 20px;*/
+  color: #595856;
+  margin: 0 10px;
 }
 
-#linkedin {
+#contact-glyphs{
+  margin-top: 30px;
+}
+/*#linkedin {
   width: 40px;
   height: 40px;
   margin-top: 10px;
+  color: #595856;
+}*/
+
+#email {
+  color: #595856;
+}
+#email-contact{
+  margin: 25px 0;
+}
+#copyright {
+  display: block;
+  margin-top: 50px;
 }
