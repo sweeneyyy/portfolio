@@ -89,6 +89,10 @@ hr {
   margin-bottom: 50px;
 }
 
+.fa-github {
+  color: #595856;
+}
+
 .glyphicon-menu-right::before {
   color: #000000;
   margin-right: -40px;
@@ -132,6 +136,17 @@ hr {
   background-image: none;
 }
 
+img {
+  filter: gray;
+  -webkit-filter: grayscale(1); 
+  -webkit-transition: all .8s ease-in-out;  
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
 
 /* CONTACT */
 #contact {
