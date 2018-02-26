@@ -171,6 +171,7 @@ img:hover {
   /*margin-top: 20px;*/
   color: #595856;
   margin: 0 10px;
+  text-decoration: none;
 }
 
 #contact-glyphs{
