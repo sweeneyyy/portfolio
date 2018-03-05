@@ -90,6 +90,7 @@ hr {
 }
 .project-details{
   font-size: 20px;
+  font-weight: 500;
   padding: 10px;
 }
 
@@ -140,17 +141,18 @@ hr {
   background-image: none;
 }
 
-img {
+/*img {
   filter: gray;
   -webkit-filter: grayscale(1); 
   -webkit-transition: all .8s ease-in-out;  
-}
+}*/
 
-img:hover {
+/*img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
-}
+}*/
+
 
 /* CONTACT */
 #contact {
@@ -171,6 +173,7 @@ img:hover {
   /*margin-top: 20px;*/
   color: #595856;
   margin: 0 10px;
+  text-decoration: none;
 }
 
 #contact-glyphs{
