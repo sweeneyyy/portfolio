@@ -89,7 +89,10 @@ hr {
   margin-bottom: 50px;
 }
 .project-details{
+  /*font-family: 'Barlow Semi Condensed', sans-serif;*/
   font-size: 20px;
+  font-weight: 500;
+  /*color: #5e5d5c;*/
   padding: 10px;
 }
 
@@ -140,17 +143,17 @@ hr {
   background-image: none;
 }
 
-img {
+/*img {
   filter: gray;
   -webkit-filter: grayscale(1); 
   -webkit-transition: all .8s ease-in-out;  
-}
+}*/
 
-img:hover {
+/*img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
-}
+}*/
 
 /* CONTACT */
 #contact {
