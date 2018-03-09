@@ -59,7 +59,6 @@
 
     <!-- PROJECT SECTION -->
     <section id="projects">
-
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
       <!-- Wrapper for slides --> 
       <div class="carousel-inner">
@@ -70,6 +69,7 @@
           <div class="col-sm-4">
             <div class="carousel-caption">
               <h2>whereabouts</h2>
+             <!--  <p class="project-details">A vision board app that allows a user to search images from tumblr by their tag.</p> -->
               <p class="project-details">Technologies: Node.js/Express, Sequelize, PostgreSQL, Javascript, AJAX, Bootstrap, HTML, CSS</p>
               <a href="https://github.com/sweeneyyy/whereabouts" class="btn btn-default btn-lg" target="_blank">
                 <span class="fab fa-github fa-sm"></span> 
@@ -87,9 +87,8 @@
           </div>
           <div class="col-sm-4">
             <div class="carousel-caption">
-                <h2>Venture</h2>
+              <h2>Venture</h2>
                 <p class="project-details">A group project at GA with Tony Phan and Winston Summers.</p> 
-               <!--  <br /> -->
                 <p class="project-details">Technologies: MongoDB, Mongoose, Node.js/Express, React.js, Javascript, Materialize, HTML, CSS</p>
                 <a href="https://github.com/sweeneyyy/mern-project-3" class="btn btn-default btn-lg" target="_blank">
                   <span class="fab fa-github fa-sm"></span> 
@@ -107,7 +106,7 @@
           </div>
           <div class="col-sm-4">
             <div class="carousel-caption">
-                <h2>Whack-A-Shark</h2>
+              <h2>Whack-A-Shark</h2>
                 <p class="project-details">Technologies: Vanilla Javascript, HTML, CSS</p>
                  <a href="https://github.com/sweeneyyy/whack-a-shark" class="btn btn-default btn-lg" target="_blank">
                   <span class="fab fa-github fa-sm"></span> 
@@ -126,12 +125,6 @@
         <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
           <span class="glyphicon glyphicon-menu-right"></span>
         </a>
-        <!-- Indicators -->
-       <!--  <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>  -->
       </div>
     </section>
 
@@ -139,14 +132,14 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-sm-offset-2 col-sm-8 contact-glyphs">
+          <div class="col-sm-offset-2 col-sm-8">
             <h1 class="contact-heading">Let's talk!</h1>
               <a href="mailto:sweeneyarnett@gmail.com" class="btn btn-default btn-lg" target="_blank">
                 <span class="far fa-envelope fa-2x" id="email"></span>
                 Email
               </a>
               <a href="https://www.linkedin.com/in/sweeneyarnett/" class="btn btn-default btn-lg" target="_blank">
-                <span class="fab fa-linkedin-in fa-2x"></span> 
+                <span class="fab fa-linkedin-in fa-2x" id="linkedin"></span> 
                   LinkedIn
               </a> 
              <a href="https://github.com/sweeneyyy/" class="btn btn-default btn-lg" target="_blank">
@@ -154,15 +147,17 @@
                   GitHub
               </a>  
               <a href="sarnett_resume.pdf" class="btn btn-default btn-lg" target="_blank">
-                <span class="far fa-file-alt fa-2x"></span> 
+                <span class="far fa-file-alt fa-2x" id="resume"></span> 
                   Resume
               </a>  
-            <p id="copyright">&copy; 2018 Sweeney Arnett</p>
+           
           </div>
         </div>
       </div>
     </section>
-
+    <footer>
+      <p id="copyright">&copy; 2018 Sweeney Arnett</p>
+    </footer>
   <!-- jQuery and Bootstrap-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
