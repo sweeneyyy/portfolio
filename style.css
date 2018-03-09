@@ -167,6 +167,9 @@ hr {
   /*margin: 0 20px 50px 20px;*/
   /*text-align: center;*/
 }
+.contact-heading {
+  margin-bottom: 30px;
+}
 
 #contact-glyphs a{
  /* width: 40px;
@@ -177,7 +180,7 @@ hr {
   text-decoration: none;
 }
 
-#contact-glyphs{
+.contact-glyphs{
   margin-top: 30px;
 }
 /*#linkedin {
@@ -195,5 +198,5 @@ hr {
 }
 #copyright {
   display: block;
-  margin-top: 50px;
+  margin-top: 80px;
 }
