@@ -5,8 +5,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #EBECED;
-  color: #595856;
-  /*color: #A2AAB0;*/
+  color: #777;
 }
 
 nav {
@@ -60,9 +59,9 @@ hr {
   padding: 90px 0;
 } 
 
-#brand-statement {
+/*#brand-statement {
   font-weight: 100 !important;
-}
+}*/
 
 /************** PROJECTS **************/
 #projects {
@@ -72,8 +71,8 @@ hr {
   padding: 70px 0;
 }
 
-#projects-header{
-  margin-bottom: 40px;
+.projects-header {
+  color: #777;
 }
 
 .projects-display {
@@ -81,25 +80,33 @@ hr {
 }
 
 .project-details{
-  /*font-family: 'Barlow Semi Condensed', sans-serif;*/
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   text-align: left;
-  /*color: #5e5d5c;*/
+  color: #777;
   padding: 10px;
+}
+.project-tech{
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+  color: #777;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .fa-github {
-  color: #595856;
+  color: #777;
 }
 
 .glyphicon-menu-right::before {
-  color: #000000;
+  color: #777;
   margin-right: -40px;
 }
 
 .glyphicon-menu-left::before {
-  color: #000000;
+  color: #777;
   margin-left: -40px;
 }
 
@@ -161,6 +168,11 @@ hr {
   /*margin: 0 20px 50px 20px;*/
   /*text-align: center;*/
 }
+
+#contact a {
+  width: 159px;
+}
+
 .contact-heading {
   margin-bottom: 30px;
 }
@@ -176,7 +188,7 @@ hr {
 
 .contact-glyphs{
   margin-top: 30px;
-  color: #595856;
+  color: #777;
   margin: 0 10px;
   text-decoration: none;
 }
