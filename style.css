@@ -4,7 +4,8 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #EBECED;
+  background-color: #edf2f2;
+  /*background-color: #EBECED;*/
   color: #777;
 }
 
@@ -48,9 +49,9 @@ hr {
   z-index: 99;
 }
 
-/************** ABOUT **************/
+/************** WELCOME **************/
 
-#about {
+#welcome {
   background-color: #edf2f2;
   width: 100%;
   height: 40%;
@@ -153,12 +154,43 @@ hr {
   -webkit-transform: scale(1.01);
 }*/
 
+/************** ABOUT **************/
+
+#about {
+  background-color: #EBECED; 
+  /*background-color: #edf2f2;*/
+  width: 100%;
+  height: 40%;
+  padding: 90px 0;
+}
+
+.about-heading {
+  display: block;
+  text-align: left;
+  padding: 10px;
+}
+
+.about-details {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+  color: #777;
+  padding: 10px;
+}
+
+#me {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+
 /************** CONTACT **************/
 #contact {
-  background-color: #EBECED;
+  background-color: #edf2f2;
+  /*background-color: #EBECED; */
   width: 100%;
   height: 50%;
-  padding: 60px 0 10px 0;
+  padding: 60px 0 60px 0;
   margin-bottom: 50px;
   letter-spacing: 1px;
   font-size: 20px;
@@ -192,6 +224,7 @@ hr {
   display: block;
   /*margin-top: 80px;*/
   text-align: center;
+  background-color: #edf2f2;
 }
 
 #footer {
