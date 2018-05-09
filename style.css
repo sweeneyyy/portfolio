@@ -55,11 +55,11 @@ hr {
   width: 100%;
   height: 40%;
   padding: 90px 0;
-} 
+}
 
 /************** PROJECTS **************/
 #projects {
-  background-color: #FFF;
+  background-color: #fff;
   width: 100%;
   height: 60%;
   padding: 70px 0;
@@ -73,14 +73,14 @@ hr {
   margin-bottom: 50px;
 }
 
-.project-details{
+.project-details {
   font-size: 22px;
   font-weight: 500;
   text-align: left;
   color: #777;
   padding: 10px;
 }
-.project-tech{
+.project-tech {
   font-style: italic;
   font-size: 22px;
   font-weight: 500;
@@ -103,10 +103,6 @@ hr {
   color: #777;
   margin-left: -40px;
 }
-
-/*.carousel-control {
-  background-image: none !important;
-}*/
 
 .carousel-caption {
   position: relative;
@@ -132,27 +128,15 @@ hr {
   top: 180px;
 }
 
-.carousel-control.left, 
+.carousel-control.left,
 .carousel-control.right {
   background-image: none;
 }
 
-/*img {
-  filter: gray;
-  -webkit-filter: grayscale(1); 
-  -webkit-transition: all .8s ease-in-out;  
-}*/
-
-/*img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.01);
-}*/
-
 /************** ABOUT **************/
 
 #about {
-  background-color: #EBECED; 
+  background-color: #ebeced;
   width: 100%;
   height: 40%;
   padding: 90px 0;
@@ -175,7 +159,15 @@ hr {
 #me {
   width: 100%;
   height: 100%;
-  border-radius: 100px;
+  margin-top: 90px;
+  margin-left: 20px;
+  border: 1px solid white;
+  /* border-radius: 100px; */
+}
+@media only screen and (max-width: 1000px) {
+  #me {
+    display: none;
+  }
 }
 
 /************** CONTACT **************/
@@ -198,7 +190,7 @@ hr {
   margin-bottom: 30px;
 }
 
-.contact-glyphs{
+.contact-glyphs {
   margin-top: 30px;
   color: #777;
   margin: 0 10px;
@@ -215,7 +207,6 @@ hr {
   padding: 20px;
 }
 
-#footer a{
+#footer a {
   color: #000000;
 }
-
