@@ -162,8 +162,8 @@ hr {
   margin-top: 90px;
   margin-left: 20px;
   border: 1px solid white;
-  /* border-radius: 100px; */
 }
+
 @media only screen and (max-width: 1000px) {
   #me {
     display: none;
